@@ -1,0 +1,38 @@
+# SkyGeni Sales Intelligence Configuration
+
+data:
+  raw_path: "data/raw/skygeni_sales_data.csv"
+  processed_path: "data/processed/"
+
+features:
+  categorical:
+    - industry
+    - region
+    - product_type
+    - lead_source
+    - deal_stage
+    - sales_rep_id
+  numerical:
+    - deal_amount
+    - sales_cycle_days
+  target: "outcome"
+
+model:
+  type: "xgboost"
+  params:
+    n_estimators: 200
+    max_depth: 6
+    learning_rate: 0.1
+    min_child_weight: 3
+    subsample: 0.8
+    colsample_bytree: 0.8
+    random_state: 42
+  test_size: 0.2
+
+thresholds:
+  high_risk: 0.7
+  medium_risk: 0.4
+
+alerts:
+  win_rate_drop_threshold: 0.10
+  deal_risk_alert_threshold: 0.7
