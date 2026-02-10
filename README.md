@@ -1813,9 +1813,13 @@ This software is provided as-is for use and modification. See LICENSE file for f
 
 ## Author
 
-**SkyGeni Data Science Challenge**
+**Vraj Alpeshkumar Modi**  
+M.Tech (Computer Science & Engineering), NIT Goa  
+Data Science / Healthcare - Medical Imaging AI | Machine Learning | Computer Vision  
 
-Developed for the SkyGeni Data Science Challenge to address real-world challenges in sales intelligence and revenue operations. The system is designed to provide actionable insights for Chief Revenue Officers and sales leadership teams.
+- Designed and developed the end-to-end Sales Intelligence System  
+- Built ML-based deal risk scoring and forecasting pipeline  
+- Implemented Streamlit dashboard and LLM-powered insights
 
 ---
 
