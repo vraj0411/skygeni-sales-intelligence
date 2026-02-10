@@ -369,7 +369,7 @@ Create a `.env` file in the project root (optional):
 
 ```bash
 # LLM Configuration
-GROQ_API_KEY=your-groq-api-key-here
+GROQ_API_KEY=it is attach with mail
 
 # Logging
 LOG_LEVEL=INFO
