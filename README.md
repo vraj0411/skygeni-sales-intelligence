@@ -369,7 +369,7 @@ Create a `.env` file in the project root (optional):
 
 ```bash
 # LLM Configuration
-GROQ_API_KEY=your-groq-api-key-here
+GROQ_API_KEY=YOUR_API_KEY (provided via email)
 
 # Logging
 LOG_LEVEL=INFO
@@ -1813,9 +1813,19 @@ This software is provided as-is for use and modification. See LICENSE file for f
 
 ## Author
 
+<<<<<<< HEAD
 **SkyGeni Data Science Challenge**
 
 Developed for the SkyGeni Data Science Challenge to address real-world challenges in sales intelligence and revenue operations. The system is designed to provide actionable insights for Chief Revenue Officers and sales leadership teams.
+=======
+**Vraj Alpeshkumar Modi**  
+M.Tech (Computer Science & Engineering), NIT Goa  
+Data Science / Healthcare - Medical Imaging AI | Machine Learning | Computer Vision  
+
+- Designed and developed the end-to-end Sales Intelligence System  
+- Built ML-based deal risk scoring and forecasting pipeline  
+- Implemented Streamlit dashboard and LLM-powered insights
+>>>>>>> f7ab4c7a2f5c80efdf774a8323e7de8077bdb055
 
 ---
 
