@@ -237,7 +237,7 @@ In 2 bullet points:
 
 def get_insights_generator() -> Optional[InsightsGenerator]:
     """Factory function to create InsightsGenerator with API key."""
-    api_key = "GROQ_API_KEY"
+    api_key = Put api key here
     try:
         return InsightsGenerator(api_key=api_key)
     except Exception as e:

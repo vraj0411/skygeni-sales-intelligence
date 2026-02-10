@@ -4,13 +4,24 @@ SkyGeni Sales Intelligence Dashboard
 Run with: streamlit run app.py
 """
 
+from pathlib import Path
+import os
+
+# Load environment variables from .env file (if present)
+_env_path = Path(__file__).parent / ".env"
+if _env_path.exists():
+    try:
+        from dotenv import load_dotenv
+        load_dotenv(_env_path)
+    except ImportError:
+        pass
+
 import streamlit as st
 import pandas as pd
 import numpy as np
 import plotly.express as px
 import plotly.graph_objects as go
 from plotly.subplots import make_subplots
-from pathlib import Path
 import json
 import sys
 
